@@ -35,3 +35,18 @@ def ask_question(data: QuestionRequest):
 def read_root():
     return {"message": "API is working!"}
 
+from fastapi.responses import FileResponse
+
+@app.get("/styles.css")
+def get_css():
+    return FileResponse("styles.css")
+
+@app.get("/script.js")
+def get_js():
+    return FileResponse("script.js")
+
+@app.get("/frontchat.html")
+def get_html():
+    return FileResponse("frontchat.html")
+
+
