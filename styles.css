@@ -1,0 +1,92 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('tor.png') ; 
+    background-size: cover;
+    font-family: 'Georgia', serif;
+    color: #2e2a26;
+  }
+  
+  .container {
+    background-color: rgba(255, 255, 255, 0.9);
+    width: 60%;
+    margin: 40px auto;
+    border: 8px solid #6d4c41;
+    box-shadow: 0 0 30px rgba(0,0,0,0.6);
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  header {
+    text-align: center;
+    border-bottom: 3px solid #6d4c41;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+  }
+  
+  header h1 {
+    font-size: 2.5rem;
+    margin: 0;
+    font-family: 'Palatino Linotype', serif;
+  }
+  
+  header p {
+    font-style: italic;
+    font-size: 1.1rem;
+  }
+  
+  .chat-window {
+    height: 400px;
+    overflow-y: auto;
+    border: 2px solid #ccc;
+    padding: 15px;
+    background: #fdf6e3;
+    border-radius: 10px;
+    margin-bottom: 15px;
+  }
+  
+  .message {
+    margin: 10px 0;
+  }
+  
+  .message.user {
+    text-align: right;
+    color: #0d47a1;
+  }
+  
+  .message.bot {
+    text-align: left;
+    color: #4e342e;
+    background-color: #f0e6d6;
+    display: inline-block;
+    padding: 8px 12px;
+    border-radius: 10px;
+  }
+  
+  form {
+    display: flex;
+    gap: 10px;
+  }
+  
+  input[type="text"] {
+    flex: 1;
+    padding: 12px;
+    font-size: 1rem;
+    border-radius: 8px;
+    border: 2px solid #795548;
+  }
+  
+  button {
+    padding: 12px 20px;
+    background-color: #6d4c41;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #5d4037;
+  }
+  
