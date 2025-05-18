@@ -31,3 +31,6 @@ class QuestionRequest(BaseModel):
 def ask_question(data: QuestionRequest):
     answer = chatbot.ask(data.question)
     return {"answer": answer}
+@app.get("/")
+def read_root():
+    return {"message": "API is working!"}
