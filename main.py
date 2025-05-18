@@ -34,3 +34,4 @@ def ask_question(data: QuestionRequest):
 @app.get("/")
 def read_root():
     return {"message": "API is working!"}
+

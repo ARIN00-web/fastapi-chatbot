@@ -8,7 +8,7 @@ document.getElementById('chatForm').addEventListener('submit', async function (e
     const chatWindow = document.getElementById('chatWindow');
     chatWindow.innerHTML += `<div class="message user">${userText}</div>`;
   
-    const response = await fetch('http://localhost:8000/ask', {
+    const response = await fetch('/ask', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ question: userText })
