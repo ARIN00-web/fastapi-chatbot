@@ -14,4 +14,3 @@ faiss-cpu
 numpy
 google-generativeai
 pydantic
-os
