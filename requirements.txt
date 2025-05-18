@@ -12,3 +12,7 @@ PyMuPDF
 sentence-transformers
 faiss-cpu
 numpy
+google-generativeai
+warnings 
+pydantic
+os
