@@ -1,0 +1,9 @@
+# Ignore virtual environments
+venv/
+.venv/
+chatbot-env/
+__pycache__/
+*.pyc
+.env
+.DS_Store
+
